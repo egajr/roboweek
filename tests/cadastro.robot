@@ -28,6 +28,7 @@ Quando eu faço o cadastro de um novo jogo
     Click Element       xpath://input[@value='Criar Produto']
 
 Então vejo a mensagem de sucesso "${mensagem_esperda}"
-    Element Shoul Contain       css:div[role=alert]     ${mensagem_esperda}
+    Element Should Contain          css:div[role=alert]     ${mensagem_esperda}
 
 E vejo este novo jogo na lista    
+    Elemente Should Contain         id:table_list           Call of Duty
