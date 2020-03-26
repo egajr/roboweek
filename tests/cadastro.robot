@@ -31,4 +31,4 @@ Então vejo a mensagem de sucesso "${mensagem_esperda}"
     Element Should Contain          css:div[role=alert]     ${mensagem_esperda}
 
 E vejo este novo jogo na lista    
-    Elemente Should Contain         id:table_list           Call of Duty 3
+    Element Should Contain         id:table_list           Call of Duty 3

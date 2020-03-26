@@ -5,6 +5,7 @@ gem 'puma', '~> 3.7'
 gem 'rails', '~> 5.1.4'
 gem 'sqlite3'
 gem 'turbolinks', '~> 5'
+gem 'tzinfo-data'
 
 gem 'rails-i18n', '~> 5.0.0'
 
